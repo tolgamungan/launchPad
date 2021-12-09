@@ -1,0 +1,132 @@
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.csproj.AssemblyReference.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.AssemblyInfoInputs.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.AssemblyInfo.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.csproj.CoreCompileInputs.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.MvcApplicationPartsAssemblyInfo.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.RazorAssemblyInfo.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.RazorAssemblyInfo.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/appsettings.Development.json
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/appsettings.json
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.deps.json
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.runtimeconfig.json
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.runtimeconfig.dev.json
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/ref/launchPad.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.pdb
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.Views.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/launchPad.Views.pdb
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Humanizer.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/MySqlConnector.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/staticwebassets/launchPad.StaticWebAssets.Manifest.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/staticwebassets/launchPad.StaticWebAssets.xml
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/scopedcss/bundle/launchPad.styles.css
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.TagHelpers.input.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.TagHelpers.output.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.RazorCoreGenerate.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Admin/AddLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Admin/DeleteLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Admin/EditCategory.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Admin/EditLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Admin/Index.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Login/Login.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Public/Index.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.RazorTargetAssemblyInfo.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.RazorTargetAssemblyInfo.cs
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.Views.pdb
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.csproj.CopyComplete
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/ref/launchPad.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.pdb
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/obj/Debug/net5.0/launchPad.genruntimeconfig.cache
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Google.Protobuf.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/MySql.Data.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Zstandard.Net.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/Renci.SshNet.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/SshNet.Security.Cryptography.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/System.Xml.XPath.XmlDocument.dll
+/Users/tolgamungan/Desktop/Web App Project 3/launchPad/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/appsettings.Development.json
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/appsettings.json
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.deps.json
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.runtimeconfig.json
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.runtimeconfig.dev.json
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/ref/launchPad.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.pdb
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.Views.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/launchPad.Views.pdb
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Google.Protobuf.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Humanizer.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/MySql.Data.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Zstandard.Net.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/MySqlConnector.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/Renci.SshNet.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/SshNet.Security.Cryptography.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/System.Xml.XPath.XmlDocument.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.csproj.AssemblyReference.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.AssemblyInfoInputs.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.AssemblyInfo.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.csproj.CoreCompileInputs.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.MvcApplicationPartsAssemblyInfo.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.RazorAssemblyInfo.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.RazorAssemblyInfo.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/staticwebassets/launchPad.StaticWebAssets.Manifest.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/staticwebassets/launchPad.StaticWebAssets.xml
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/scopedcss/bundle/launchPad.styles.css
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.TagHelpers.input.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.TagHelpers.output.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.RazorCoreGenerate.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Admin/AddLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Admin/DeleteLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Admin/EditCategory.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Admin/EditLink.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Admin/Index.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Login/Login.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Public/Index.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.RazorTargetAssemblyInfo.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.RazorTargetAssemblyInfo.cs
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.Views.pdb
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/ref/launchPad.dll
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.pdb
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.genruntimeconfig.cache
+/Users/tolgamungan/Desktop/launchPad-AWS/obj/Debug/net5.0/launchPad.csproj.CopyComplete

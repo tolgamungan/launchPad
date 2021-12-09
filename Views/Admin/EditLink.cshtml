@@ -1,0 +1,54 @@
+@model Link;
+
+<div class="container">
+
+<div class="row my-2">
+    <div class="col">
+        <h4>Edit Link</h4>
+        <div style="margin-bottom:10px">Enter the link data below</div>
+        
+
+        <form asp-controller="Admin" asp-action="EditLinkUpdateCategory">
+            <div class="form-group">
+                <select id="lstCategories" class="btn btn-secondary form-control"asp-for="@Model.categoryID" asp-items="ViewBag.categoryList" onchange="this.form.submit();"></select>
+                <input type="hidden" value="@Model.linkID" asp-for="@Model.linkID">
+            </div>
+        </form>
+
+        <form method="post">
+
+            <div class="form-group">
+                <label>Label</label>
+                <input type="text" asp-for="@Model.label" class="form-control" maxlength="50" />
+                <span asp-validation-for="@Model.label" class="text-danger" />
+            </div>
+            
+            <div class="form-group">
+                <label>href</label>
+                <input type="text" asp-for="@Model.url" class="form-control" />
+                <span asp-validation-for="@Model.url" class="text-danger" />
+            </div>
+
+            <div class="form-group">
+                <label>Pinned</label>
+                <div class="form-check">
+                <input type="checkbox" asp-for="@Model.pinned" class="form-check-input" maxlength="100" /> Pin link to top
+                </div>
+            </div>
+
+         
+            <div class="form-group">
+                <input type="submit" asp-controller="Admin" asp-action="EditLinkSubmit" class="btn btn-warning" Text="Add" />
+                <a asp-controller="Admin" asp-action="Index"><input type="button" class="btn btn-warning" value="Cancel" /></a>
+                <span class="text-warning" style="margin-left:5px;">@ViewData["feedback"]</span>
+            </div>
+        </form>
+
+    </div>
+</div></div>
+
+@section scripts {
+    <script>
+        startAutoLogout();
+    </script>
+}

@@ -1,0 +1,62 @@
+@model LinkManager;
+
+<div class="container">
+    <div class="row">
+        <form method="post">
+            <div class="title col">_launchPad.</a>
+                <span class="title-subtitle">Administration.</span>
+                <button type="submit" class="btn btn-danger" asp-controller="Public" asp-action="Index"><span class="fas fa-sign-out-alt fa-xs"></span></button>
+            </div>
+        </form>
+    </div>
+
+        <form asp-controller="Admin" asp-action="Index">
+        <div class="col mt-2">
+            <input id="postback" style="display: none;" type="submit" value="Stay on this page" class="btn btn-success btn-xs" /><span id="lblExpire" class="text-danger" style="margin-left:10px"></span>
+        </div></form>
+
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+            @foreach (var category in Model.categories) { var i=0;
+                <div class="col-md-3">
+                    <form method="post">
+                        <div class="title-category">@category.categoryName
+                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="AddLink"><span class="fas fa-plus"></span></button>      
+                            <input type="hidden" value="@category.categoryName" asp-for="@Model.categoryName">
+                            <input type="hidden" value="@category.categoryID" asp-for="@Model.categoryID">
+                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditCategory"><span class="fas fa-pencil-alt"></button>                    
+                        </div>
+                    </form>
+                        @if (Model.links.Count == 0) { <div>No links in @category.categoryName...</div>} 
+                        else { i =0;
+                            @foreach (var link in Model.links) {
+                                @if (link.categoryID==category.categoryID&&link.pinned){i+=1;}}var a=0;
+                            @foreach (var link in Model.links) {
+                                @if (link.categoryID == category.categoryID) {
+                                    @if (i==0) {}else if (a == i) {<div class="pin-border"></div> }a+=1;
+
+                                    <form method="post">
+                                        <div class="link">
+                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditLink"><span class="fas fa-pencil-alt"></button>
+                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="DeleteLink"><span class="fas fa-trash-alt"></button>
+                                                <input type="hidden" value="@link.linkID" asp-for="@Model.linkID">
+                                                <input type="hidden" value="@link.categoryID" asp-for="@Model.categoryID">
+
+                                            <span class="center-text">
+                                            <img src="https://www.google.com/s2/favicons?domain_url=@link.url" alt="@link.label" class="icon">
+                                            <a href="@link.url" target="_blank" rel="noreferrer" class="text-black">@link.label</a>
+                                            </span>
+
+                                        </div> 
+                                    </form>
+                                
+
+                                } } }
+                </div>
+            }
+        </div>
+</div>
+@section scripts {
+    <script>
+        startAutoLogout();
+    </script>
+}

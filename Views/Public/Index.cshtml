@@ -1,0 +1,26 @@
+@model LinkManager;
+
+<div class="container">
+    <div class="row">
+        <div class="title col">_launchP<a href="/login/login">ad.</a></div>
+    </div>
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+            @foreach (var category in Model.categories) { var i=0;
+                <div class="col-md-3">
+                    <div class="title-category">@category.categoryName</div>
+                        @if (Model.links.Count == 0) { <div>No links in @category.categoryName...</div>} 
+                        else { i =0;
+                            @* Count number of pinned links in this category *@
+                            @foreach (var link in Model.links) {
+                                @if (link.categoryID==category.categoryID&&link.pinned){i+=1;}}var a=0;
+                            @foreach (var link in Model.links) {
+                                @if (link.categoryID == category.categoryID) {
+                                    @if (i==0) {}else if (a == i) {<div class="pin-border"></div> }a+=1;
+                                <div class="link">
+                                    <img src="https://www.google.com/s2/favicons?domain_url=@link.url" alt="@link.label" class="icon">
+                                    <a href="@link.url" target="_blank" rel="noreferrer" class="text-black">@link.label</a>
+                                </div> } } }
+                </div>
+            }
+        </div>
+</div>

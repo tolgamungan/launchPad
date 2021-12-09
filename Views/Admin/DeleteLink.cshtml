@@ -1,0 +1,28 @@
+@model Link;
+
+<div class="container">
+    <div class="row" style="margin-bottom:20px;">
+        <div class="col-sm-12">
+            <h4>Delete Link</h4>
+            <div style="margin-bottom:10px">Are you sure you want to delete the following link?</div>
+            <form method="post">
+                <div class="form-group">
+                    <span class="center-text">
+                        <img src="https://www.google.com/s2/favicons?domain_url=@Model.url" alt="@Model.label" class="icon">
+                        @Model.label | @Model.url
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" asp-controller="Admin" asp-action="DeleteLinkSubmit" class="btn btn-warning" value="Delete" />
+                    <input type="submit" asp-controller="Admin" asp-action="Index" class="btn btn-warning" value="Cancel" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script>
+        startAutoLogout();
+    </script>
+}

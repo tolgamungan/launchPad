@@ -1,0 +1,31 @@
+@model Category;
+
+<div class="container">
+    <div class="row my-2">
+        <div class="col">
+            <h4>Edit Category</h4>
+            <div style="margin-bottom:10px">Edit the category data below</div>
+            
+            <form method="post">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" value="@ViewBag.category.categoryName" asp-for="@Model.categoryName" class="form-control" maxlength="50" />
+                    <span asp-validation-for="@Model.categoryName" class="text-danger" />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" asp-controller="Admin" asp-action="EditCategorySubmit" class="btn btn-warning" Text="Add" />
+                    <a asp-controller="Admin" asp-action="Index"><input type="button" class="btn btn-warning" value="Cancel" /></a>
+                    <span class="text-warning" style="margin-left:5px;">@ViewData["feedback"]</span>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        startAutoLogout();
+    </script>
+}
