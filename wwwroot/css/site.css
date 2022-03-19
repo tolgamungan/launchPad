@@ -8,7 +8,8 @@ html { overflow-y: scroll; }
 body {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-  background-color: #cce2d061;
+  /* background-color: #cce2d061; */
+  background-color: #fcfdfd;
   padding: 20px 0 20px 0;
   color: rgba(0, 0, 0, 0.733);
 }
@@ -18,11 +19,12 @@ input,select,textarea { max-width: 280px; }
   font-family: 'Roboto Slab', serif;
   font-size:2.5em;
   margin: 5px 0 0 0;
-  color: #7496b4;
+  color: #4f6a81;
 }
 .title-subtitle {
   font-family: 'Roboto Slab', serif;
-  color: #7496b4;
+  /* color: #7496b4; */
+  color: #4f6a81;
   font-size:17px;
   margin-right:15px;
 }
@@ -37,13 +39,13 @@ input,select,textarea { max-width: 280px; }
   font-size: 22px;
   margin: 6px 0 10px 0;
   font-weight:500;
-  color: #7496b4;
+  color: #4f6a81;
+  padding-top: 7px;
 }
 .link { margin-bottom:3px; }
-.fas{ font-size: 1rem !important; }
 .icon {
   background-color: #FFFFFF;
-  height: 4vw;width:  4vw;
+  height: 3vw;width: 3vw;
   border-radius: 3px;
   margin: 0 7px 3px 0;
 }
@@ -56,10 +58,43 @@ input,select,textarea { max-width: 280px; }
 #lblExpire{ font-weight: 500; }
 a{
   color: rgba(0, 0, 0, 0.733);
-  font-size: 1rem ;
+  font-size: 1.25vw ;
 }
 @media(min-width:1024px){
   .icon{
     height: 2vw;width:  2vw;
   }
 }
+.space{ padding-bottom: 50px; }
+.container{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.login-container{
+  width: 325px;
+  height: 400px;
+  margin: 0 auto;
+}
+.col{
+  margin: 0 5px 0 5px;
+  min-width: 48%;
+  border-radius: 20px;
+}
+.color:nth-child(2n){ margin-bottom: 50px; }
+.color:nth-child(2n+1){ margin-bottom: 50px; }
+.link{ white-space: nowrap !important; }
+
+@media only screen and (max-width: 900px) {
+  .col{ min-width: 50%; }
+  a{ font-size: 2vw ; }
+}
+
+@media only screen and (max-width: 768px) {
+  .col{ min-width: 50%; }
+  a{ font-size: 3vw ; }
+}
+.btn{ transition: background-color 1s ease-out !important; }
+.btn:not(.danger){ background-color: #eef4fb !important; }
+.btn:hover:not(.danger){ background-color: #7496b4 !important; }

@@ -1,30 +1,30 @@
 @model LinkManager;
 
 <div class="container">
-    <div class="row">
+    <div>
         <form method="post">
-            <div class="title col">_launchPad.</a>
+            <div class="title">_launchPad.</a>
                 <span class="title-subtitle">Administration.</span>
-                <button type="submit" class="btn btn-danger" asp-controller="Public" asp-action="Index"><span class="bi bi-box-arrow-in-right fa-lg"></span></button>
-            </div>
+                <button type="submit" class="btn btn-danger btn-sm danger" asp-controller="Public" asp-action="Index"><span class="bi bi-box-arrow-in-right"></span></button>
+            </div><br><br>
         </form>
     </div>
 
         <form asp-controller="Admin" asp-action="Index">
-        <div class="col mt-2">
+        <div>
             <input id="postback" style="display: none;" type="submit" value="Stay on this page" class="btn btn-success btn-xs" /><span id="lblExpire" class="text-danger" style="margin-left:10px"></span>
         </div></form>
 
-        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+        <div class="row" >
             @foreach (var category in Model.categories) { var i=0;
-                <div class="col-md-3">
+                <div class="col color shadow-lg">
                     <form method="post">
-                        <div class="title-category">@category.categoryName
-                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="AddLink"><span class="bi bi-plus fa-lg"></span></button>      
+                        <div class="title-category">@category.categoryName 
+                            <button type="submit" class="btn btn-sm" asp-controller="Admin" asp-action="AddLink"><span class="bi bi-plus "></span></button>      
                             <input type="hidden" value="@category.categoryName" asp-for="@Model.categoryName">
                             <input type="hidden" value="@category.categoryID" asp-for="@Model.categoryID">
-                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditCategory"><span class="bi bi-pencil-square fa-lg"></button>                    
-                        </div>
+                            <button type="submit" class="btn btn-sm" asp-controller="Admin" asp-action="EditCategory"><span class="bi bi-pencil-square "></button>                    
+                        </div>&nbsp;
                     </form>
                         @if (Model.links.Count == 0) { <div>No links in @category.categoryName...</div>} 
                         else { i =0;
@@ -36,14 +36,14 @@
 
                                     <form method="post">
                                         <div class="link">
-                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditLink"><span class="bi bi-plus fa-lg"></button>
-                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="DeleteLink"><span class="bi bi-trash-fill fa-lg"></button>
+                                                <button type="submit" class="btn btn-sm" asp-controller="Admin" asp-action="EditLink"><span class="bi bi-pencil-square"></button>
+                                                <button type="submit" class="btn btn-sm" asp-controller="Admin" asp-action="DeleteLink"><span class="bi bi-trash-fill"></button>&nbsp;&nbsp;
                                                 <input type="hidden" value="@link.linkID" asp-for="@Model.linkID">
                                                 <input type="hidden" value="@link.categoryID" asp-for="@Model.categoryID">
 
                                             <span class="center-text">
                                             <img src="https://www.google.com/s2/favicons?domain_url=@link.url" alt="@link.label" class="icon">
-                                            <a href="@link.url" target="_blank" rel="noreferrer" class="text-black">@link.label</a>
+                                            <a href="@link.url" target="_blank" rel="noreferrer" class="text-black"><span class="normal-wrap">@link.label</span> </a>
                                             </span>
 
                                         </div> 
@@ -51,7 +51,7 @@
                                 
 
                                 } } }
-                </div>
+                <br><br></div>
             }
         </div>
 </div>

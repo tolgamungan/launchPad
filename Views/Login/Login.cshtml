@@ -1,29 +1,25 @@
 
-<div class="container">
-  <div class="row">
-      <div class="title col">_launchP<a href="/login/login">ad.</a>
-      <span class="title-subtitle">Administration.</span></div>
+<div class="login-container">
+  <div>
+      <div class="title">_launchP<a href="/login/login">ad.</a>
+      <span class="title-subtitle">Login.</span></div>
   </div><br>
+  <div><br>
   <form asp-controller="Login" asp-action="Submit">
-          <div class="row mt-2">
-              <div class="col">
-                  <h2>Login</h2>
-                  Please enter your Username and Password...
-              </div>
-          </div>
           <div class="row">
-              <div class="col mt-2">
+              <div class="col">
                   <div class="form-group">
-                      <label for="txtUserName">Username:</label>
-                      <input type="text" name="myUsername" class="form-control" maxlength="10" />
+                    <label for="txtUserName">Username:</label>
+                    <input type="text" name="myUsername" class="form-control" maxlength="10" /><br>
                   </div>
                   <div class="form-group">
-                      <label for="txtPassword">Password:</label>
-                      <input type="password" name="myPassword" class="form-control" maxlength="10" />
+                    <label for="txtPassword">Password:</label>
+                    <input type="password" name="myPassword" class="form-control" maxlength="10" /><br>
                   </div>
                   <div class="form-group">
-                      <input type="submit" text="Submit" class="btn btn-warning" />
-                      <span class="text-warning" style="margin-left:5px;">@ViewData["feedback"]</span>
+                    <input type="submit" text="Submit" class="btn" />
+                    <a href="/public/index"><input type="button"" class="btn" value="Back" /></a>
+                    <span class="text-warning" style="margin-left:5px;">@ViewData["feedback"]</span>
                   </div>
               </div>
           </div>
