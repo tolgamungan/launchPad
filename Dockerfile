@@ -18,5 +18,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build /app ./
 
-# ATTENTION => change this dll to match the name of the csproj file of your web app
 ENTRYPOINT ["dotnet", "launchPad.dll"]

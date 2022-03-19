@@ -46,8 +46,7 @@ namespace launchPad.Models {
 
 		// ------------------------------------------------------- public methods
 		public bool unlock() {
-
-			createLogin();
+			createLogin("password");
 
 			// assume no access
 			_access = false;
@@ -76,7 +75,6 @@ namespace launchPad.Models {
 
 				// hash and salt the entered password
 				string hashedPassword = getHashed(_password, dbReader["salt"].ToString());
-				// Console.WriteLine(">>> HASHED PASSWORD: " + hashedPassword);
 
 				if (hashedPassword == dbReader["password"].ToString()) {
 					_access = true;
@@ -91,14 +89,11 @@ namespace launchPad.Models {
 			return _access;
 		}
 
-		// ------------------------------------------------------- private methods
 
-		// ------------------------- challenge solution
-		private void createLogin(){
-			string mySalt = getSalt().ToString();
-			string pwd = getHashed("tolga123",getSalt().ToString());
-			// Console.WriteLine("MY PASSWORD: "+pwd);
-			// Console.WriteLine("MY SALT: "+mySalt);
+		// Create hashed password and salt 
+		private void createLogin(string password){
+			Console.WriteLine("\n\nHashed password and salt:\n **Add these credentials and any username to the database to login with pw: "+password);
+			string pwd = getHashed("password",getSalt());
 		}
 
 
@@ -108,7 +103,7 @@ namespace launchPad.Models {
 			using (var rng = RandomNumberGenerator.Create()) {
 				rng.GetBytes(salt);
 			}
-			//Console.WriteLine(">>> Salt: " + Convert.ToBase64String(salt));
+			Console.WriteLine(">>> Salt: " + Convert.ToBase64String(salt));
 
 			return Convert.ToBase64String(salt);
 		}
@@ -125,7 +120,7 @@ namespace launchPad.Models {
 				prf: KeyDerivationPrf.HMACSHA1,
 				iterationCount: 10000,
 				numBytesRequested: 256 / 8));
-			//Console.WriteLine(">>> Hashed: " + hashed);
+			Console.WriteLine(">>> Hashed password: " + hashed);
 
 			return hashed;
 		}

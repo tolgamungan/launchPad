@@ -42,13 +42,12 @@ INSERT INTO `tblLink` (`linkID`,`categoryID`,`label`,`pinned`,`url`) VALUES
 
 INSERT INTO `tblCategory` (`categoryID`, `categoryName`) VALUES
 (2, 'Technology'),
-(3, 'School'),
+(3, 'Education'),
 (6, 'Play'),
 (18, 'Data');
 
 INSERT INTO `tblUser` (`username`, `password`, `salt`) VALUES
-('user', 'uLzOc9hqo47A75r1r9TE3ZctD3qmWEA4oQip4zfpgMg=', 'KUgMBBIZbPDsMiGUOc1UvQ=='),
-('tolga', 'QaE2xz4dlYR9L7vOMZoUQN7+ObrBFeot/80jaOsTZYk=', 'gMSXu/y60KCrgWqHdRxrbQ==');
+('user', '7SKXXmoZqdoGgOcqUNF4ENxM9YggiVOUVSMaZOZ+fwo=', '2riKd/aIpqUaDWU+OEa3Jg==');
 
 
 

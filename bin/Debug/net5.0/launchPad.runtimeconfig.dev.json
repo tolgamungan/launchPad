@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/Users/tolgamungan/.dotnet/store/|arch|/|tfm|",
-      "/Users/tolgamungan/.nuget/packages"
-    ]
-  }
-}
