@@ -1,5 +1,4 @@
 ﻿@import "~bootstrap/scss/bootstrap";
-
 html { overflow-y: scroll; }
 .row {
   display: flex;
@@ -44,8 +43,7 @@ input,select,textarea { max-width: 280px; }
 .fas{ font-size: 1rem !important; }
 .icon {
   background-color: #FFFFFF;
-  height: 4vw;
-  width:  4vw;
+  height: 4vw;width:  4vw;
   border-radius: 3px;
   margin: 0 7px 3px 0;
 }
@@ -62,7 +60,6 @@ a{
 }
 @media(min-width:1024px){
   .icon{
-    height: 2vw;
-    width:  2vw;
+    height: 2vw;width:  2vw;
   }
 }

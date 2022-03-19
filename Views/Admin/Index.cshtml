@@ -5,7 +5,7 @@
         <form method="post">
             <div class="title col">_launchPad.</a>
                 <span class="title-subtitle">Administration.</span>
-                <button type="submit" class="btn btn-danger" asp-controller="Public" asp-action="Index"><span class="fas fa-sign-out-alt fa-xs"></span></button>
+                <button type="submit" class="btn btn-danger" asp-controller="Public" asp-action="Index"><span class="bi bi-box-arrow-in-right fa-lg"></span></button>
             </div>
         </form>
     </div>
@@ -20,10 +20,10 @@
                 <div class="col-md-3">
                     <form method="post">
                         <div class="title-category">@category.categoryName
-                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="AddLink"><span class="fas fa-plus"></span></button>      
+                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="AddLink"><span class="bi bi-plus fa-lg"></span></button>      
                             <input type="hidden" value="@category.categoryName" asp-for="@Model.categoryName">
                             <input type="hidden" value="@category.categoryID" asp-for="@Model.categoryID">
-                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditCategory"><span class="fas fa-pencil-alt"></button>                    
+                            <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditCategory"><span class="bi bi-pencil-square fa-lg"></button>                    
                         </div>
                     </form>
                         @if (Model.links.Count == 0) { <div>No links in @category.categoryName...</div>} 
@@ -36,8 +36,8 @@
 
                                     <form method="post">
                                         <div class="link">
-                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditLink"><span class="fas fa-pencil-alt"></button>
-                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="DeleteLink"><span class="fas fa-trash-alt"></button>
+                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="EditLink"><span class="bi bi-plus fa-lg"></button>
+                                                <button type="submit" class="btn btn-warning" asp-controller="Admin" asp-action="DeleteLink"><span class="bi bi-trash-fill fa-lg"></button>
                                                 <input type="hidden" value="@link.linkID" asp-for="@Model.linkID">
                                                 <input type="hidden" value="@link.categoryID" asp-for="@Model.categoryID">
 
